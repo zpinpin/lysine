@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Acid Watcher pH Finder</title>
+<link href="{{url_for('static',filename='css/single2PageTemplate.css')}}" rel="stylesheet" type="text/css">
+<link href="{{url_for('static',filename='css/main.css')}}" rel="stylesheet" type="text/css">
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+<script>var __adobewebfontsappname__="dreamweaver"</script>
+<script src="http://use.edgefonts.net/source-sans-pro:n2:default.js" type="text/javascript"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+	.myImg{
+  		text-align:center;
+  	}
+        .greentext {
+	        color: green;
+        }
+        .redtext {
+	        color: red;
+        }
+</style>
+	</head>
+<body>
+<!-- Main Container -->
+<div class="container"> 
+  <!-- Navigation -->
+  <header> 
+	 <!--   <a href="">
+    <h4 class="logo">Menu</h4>
+    </a> -->
+	  <div class="dropdown">
+<button class="dropbtn">Menu</button>
+<div class="dropdown-content">
+
+<a href="/phFinder/1">Acid Watcher</a>
+<a href="/lysineFinder/1">Nutrition Watcher</a>
+<a href="/boneHealth">Bone Health</a>
+
+</div>
+</div>
+    <nav>
+	 <ul>
+        <li><a href="#hero">Crosspantry</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li> <a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <h2 class="hero_header">Question <span class="light">The Unknown</span></h2>
+    <p class="tagline">Light is ahead.</p>
+    <!--<div class="myImg"><img src='/static/img/beach.jpg'/></div> -->
+<div style="background-color:#52bad5">
+<h1>Acid Reflux Watcher</h1>
+<a href="/static/AcidWatcher.pdf">About Acid Watcher</a>
+<table style="background-color:#52bad5">
+<form action="/ph" method="POST" style="background-image='static/img/beach.jpg'" >
+<tr><td>
+<p>Food Name: <input type="text" id="foodname" name="foodname" value="Broccoli">
+         </input>&nbsp;&nbsp;
+Serving(s): <input type="text" id="serving" name="serving" value="1">
+         </input>
+</p>
+</td><td>
+<div class="input submit">
+                <input type="submit" name="submit_p" value="Find pH value"></div>
+                <input type="submit" name="submit_r" value="REFRESH">
+</td>
+</tr>
+</form>
+</span>
+</div>
+<hr>
+<h1> Rule 1: Check the pH of foods and maintain 60 to 40 ratio of pH 5 and above vs not</h1>
+{% if foodname %}
+<h2>Food Name</h2>
+{{foodname}}
+<!--  {{ phvalue }} -->
+    {% if phvalue<0 %}
+    <h2>A major cause of acid reflux.  Please avoid or neutralize with cooking !!!</h2>
+{% else %}
+<h2>pH value: {{ phvalue }} !!!</h2>
+{% endif %}
+    {% endif %}
+{% if foodname %}
+<table border=1>
+  <tr><td><b>Food</b></td>
+{% for food in foodlist %}
+    <td>{{food}}</td> 
+{% endfor %}
+  </tr>
+  <tr><td><b>PH</b></td>
+{% for ph in phslist %}
+    {% if ph<0 %}
+    <td><span class="redtext">avoid</span></td> 
+    {% else %}
+       {% if ph==3 %}
+          <td>Unknown</td> 
+       {% else %}
+          <td><span class="greentext">{{ph}}</span></td> 
+       {% endif %} 
+    {% endif %}
+{% endfor %}
+  </tr>
+</table>
+{% endif %}
+
+<hr>
+<h1> Rule 2: Maintain 80 to 20 ratio of alkaline forming food vs acid forming food</h1>
+<h2>Current Ratio is {{ akRatio }} </h2>
+{% if alkaline or acid %}
+<div class="row">
+  <div class="column" style="background-color:white;">
+    <h2>Alkaline Forming Foods<h2>
+{% for food in alkaline %}
+    <p style="background-color:green;line-height:1.5em; margin-top: 0;margin-bottom: 0;">{{ food }}</p>
+{% endfor %}
+  </div>
+  <div class="column" style="background-color:white;">
+    <h2>Acid Forming Foods</h2>
+{% for food in acid %}
+    <p style="background-color:red;line-height:1.5em; margin-top: 0;margin-bottom: 0;">{{ food }} </p>
+{% endfor %}
+  </div>
+</div>
+{% endif %}
+  </section>
+</div>  
+</body>
+</html>

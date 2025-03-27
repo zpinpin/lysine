@@ -1,1 +1,228 @@
-<!DOCTYPE html> <html><head><meta charset="ISO-8859-1"> <title>Dynamic Template</title> </head> <body> <h1>Hello {{ name }}</h1> </body></html>
+<html>
+<head>
+<title>Nutrition(Lysine Arginine Ratio)</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.frame {
+  position: relative;
+}
+
+.bubble {
+  position: absolute;
+  display: inline-block;
+  width: 130px;
+  height: 130px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: rgba(50, 90, 140, .3);
+  padding-top: 55px;
+  transition: all 200ms ease-in-out;
+  z-index: 6;
+}
+
+.bubble .content {
+  display: none;
+}
+
+.bubble.active {
+  width: 260px;
+  height: 260px;
+  z-index: 20;
+}
+.bubble.active .content {
+  display: block;
+  width: 130px;
+  height: 130px;
+  overflow: auto;
+  display: inline-block;
+}
+
+#b0 {
+  top: 38px;
+  left: 380px;
+}
+#b5 {
+  top: 38px;
+  left: 220px;
+}
+#b6 {
+  top: 150px;
+  left: 288px;
+}
+#b1 {
+  top: 50px;
+  left: 60px;
+}
+
+#b2 {
+  top: 168px;
+  left: 68px;
+  background-color: rgba(150, 40, 90, .3);
+}
+
+#b3 {
+  top: 168px;
+  left: 68px;
+  background-color: rgba(60, 200, 90, .3);
+}
+
+#b3 {
+  top: 80px;
+  left: 150px;
+  background-color: rgba(200, 200, 40, .3);
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+
+{% if messages %}
+<ul>
+                    {% for message in messages %}
+ 	<li>{{ message }}</li>
+{% endfor %}</ul>
+{% endif %}
+<h1>Nutrition Watcher</h1>
+
+<form action="/nutri" method="POST">
+<label>Select Profile:</label>
+            <select name="profile" id="profile" onchange="this.form.submit();" width="300px">
+            {% for x in names if x==profilename %}
+                    <option value="{{ x }}" SELECTED>{{ x }}</option>
+            {% endfor %}
+            {% for x in names if x!=profilename %}
+                    <option value="{{ x }}">{{ x }}</option>
+            {% endfor %}
+            </select><a href="/find-profile/name/{{ profilename }}">&#9432;</a>
+<table style="background-color:rgba(50, 90, 140, .3)">
+<tr><td>
+<p>Food Name: <input type="text" id="foodname" name="foodname" value="English Muffin">
+         </input>&nbsp;&nbsp;
+Serving(s): <input type="text" id="serving" name="serving" value="1">(per 100 grams or 3.52739619ounces)
+         </input>
+</p>
+</td><td>
+<div class="input submit"><br>
+                <input type="submit" value="Add to List"><br>
+                <input type="submit" name="submit_r" id-"submit_r" value="REFRESH"></div>
+
+</td>
+</tr>
+</span>
+<h2>Food List</h2>
+<ul>
+{% for fooditem in foodlist %}
+<li>{{fooditem}}
+</li>
+{% endfor %}
+<ul>
+</form>
+<h2>Total Lysine vs Arginie Ratio: {{ name }} !!!</h2>
+<table>
+<tr><td colspan=3><h5>Men:&nbsp;&nbsp;
+The recommended dietary allowance for protein for men is 56 grams per day, or 0.8 grams per kilogram of body weight. This equals about 0.36 grams of protein per pound of body weight. Based on the protein RDA, a 170-pound man needs at least 61 grams of protein each day. Active men likely require more protein than this minimum requirement.</h5>
+</td></tr>
+<tr><td colspan=3>
+<h3>The FDA recommendation for daily protein intake is 50 grams on a 2,000-calorie diet. </h3></td></tr>
+<tr><td colspan=3>Carbohydrates provide 4 calories per gram, protein provides 4 calories per gram, and fat provides 9 calories per gram. </td></tr>
+<!--
+<tr>
+<td>Total <b>Protein:</b> {{ protein }} gram(s)!!! </td>
+<td>Total <b>Carb:</b> {{ carb }} gram(s)!!! </td>
+<td>Total <b>Fiber:</b> {{ fiber }} gram(s)!!! </td>
+<td>Total <b>Fat:</b> {{ fat }} gram(s)!!! </td>
+<td>Total <b>Sugar:</b> {{ sugar }} gram(s)!!! </td>
+</tr>
+-->
+<tr><td colspan=3>Total <b>Calories</b>: {{ cal }} KCAL </td></tr>
+</table>
+
+<div class="frame">
+  <div class="bubble" id="b0" onClick="$(this).toggleClass('active')">
+    <span class="header"><b>Essential Amino Acids</b>({{fdname}}) </span><br>
+    <div class="content">
+        {% for item in amino %}
+         {{ item}}
+        {% endfor %} 
+    </div>
+  </div>
+  <div class="bubble" id="b1" onClick="$(this).toggleClass('active')">
+    <span class="header">
+{% if  goodProtein  %}
+<span style="font-family: wingdings; font-size: 200%;">&#252;</span>
+{% endif %}
+Total <b>Protein</b> </span><br>
+<meter value="{{protein}}" min="0" max="50" title="gram(s)">
+</meter>
+    <div class="content">
+            {{ protein }} gram(s)!!!
+    </div>
+  </div>
+  
+  <div class="bubble" id="b2" onClick="$(this).toggleClass('active')">
+    <span class="header">Total <b>Carb</b></span><br>
+    <div class="content">
+        {{ carb }} gram(s)!!!
+    </div>
+  </div>
+  
+  <div class="bubble" id="b3" onClick="$(this).toggleClass('active')">
+    <span class="header">Total <b>Fat</b> </span><br>
+    <div class="content">
+           {{ fat }} gram(s)!!!
+    </div>
+  </div>
+  
+  <div class="bubble" id="b4" onClick="$(this).toggleClass('active')">
+    <span class="header">Total <b>Fiber</b> </span><br>
+    <div class="content">
+          {{ fiber }} gram(s)!!
+    </div>
+  </div>
+  <div class="bubble" id="b6" onClick="$(this).toggleClass('active')">
+    {% if  goodCalcium  %}
+    <span style="font-family: wingdings; font-size: 200%;">&#252;</span>
+    {% endif %}
+    <span class="header">Total <b>Calcium</b> </span><br>
+    <meter value="{{calcium }}" min="0" max="800" title="mg(s)"></meter>
+    <div class="content">
+          {{ calcium }} mg(s)!!
+    </div>
+  </div>
+  <!--Sugars = 382 cal There are 382 calories (on average) in 100 g of Sugars.-->
+  <!--Calories from sugar should be less than 10 percent of total calories-->
+  <!--
+  <div class="bubble" id="b5" onClick="$(this).toggleClass('active')">
+    <span class="header">Total <b>Vitamins</b> </span><br>
+    <div class="content">
+          {{ vitamin }} gram(s)!!
+    </div>
+  </div>
+  -->
+  <div class="bubble" id="b5" onClick="$(this).toggleClass('active')">
+    {% if  goodSugar  %}
+    <span style="font-family: wingdings; font-size: 200%;">&#252;</span>
+    {% endif %}
+    <span class="header">Total <b>Sugar</b> </span><br>
+    <meter value="{{sugar}}" min="0" max=" {{ maxsugar }}" title="gram(s)"></meter>
+    <div class="content">
+          {{ sugar }} gram(s)!!
+    </div>
+  </div>
+  <!--Sugars = 382 cal There are 382 calories (on average) in 100 g of Sugars.-->
+  <!--Calories from sugar should be less than 10 percent of total calories-->
+  <!--
+  <div class="bubble" id="b5" onClick="$(this).toggleClass('active')">
+    <span class="header">Total <b>Vitamins</b> </span><br>
+    <div class="content">
+          {{ vitamin }} gram(s)!!
+    </div>
+  </div>
+  -->
+</div>
+
+</body>
+</html>

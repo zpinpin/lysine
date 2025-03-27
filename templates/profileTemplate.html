@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Dynamic Template</title>
+</head>
+<body>
+{%if name == 'Sumit'%}
+<h1>Hello {{ name }} - Author of  "Building Python Web Apps with Neo4j"!!!</h1>
+{% else %}
+<h2>Hello {{ name }} !!!</h2>
+<!--<h2>Age: {{ age }} !!!</h2>-->
+<h2>Weight: {{ weight }} lb</h2>
+<h2>Height: {{ height }} inch(s)</h2>
+<h2>BMI: {{ bmi }} (normal range is 18-25)</h2>
+<h2>Email: {{ email }} </h2>
+<h2>Gender: {{ gender }} </h2>
+<h2>Nutrition Profile:</h2>
+<ul>
+<li>Protein Requirement: {{ maxprotein }} gram(s) </li>
+<li>Calcium Requirement: {{ maxcalcium }} milligram(s) </li>
+<li>Energy Requirement: {{ maxenergy }} calorie(s) </li>
+</ul>
+{% endif %}
+</body>
+</html>
