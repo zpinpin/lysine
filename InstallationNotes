@@ -1,0 +1,8 @@
+#start database
+mongosh "mongodb+srv://cluster0.ocn1y.mongodb.net/nutriWatch" --username admin
+show dbs
+use crosspantry
+db.users.find()
+#To run Nutri Watch Application
+python3 FlaskWebApp.py   
+#host Python application on AWS EC2
