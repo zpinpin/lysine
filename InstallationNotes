@@ -1,5 +1,5 @@
 #start database
-mongosh "mongodb+srv://cluster0.ocn1y.mongodb.net/nutriWatch" --username admin
+mongosh ...
 show dbs
 use crosspantry
 db.users.find()
