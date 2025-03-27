@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Kate",
+    "id": 1,
+    "gender": "Female",
+    "age": 45,
+    "weight": 100,
+    "email": "kate.appel@gmail.com",
+    "profile": 
+      {
+        "name": "middleagefemale",
+        "maxcalcium": 1000,
+        "maxenergy": 2000,
+        "maxprotein": 50
+      },
+    "height": 62
+  },
+  {
+    "email": "michael@gmail.com",
+    "gender": "Male",
+    "id": 3,
+    "name": "Michael",
+    "weight": 180,
+    "age": 22,
+    "profile": 
+      {
+        "name": "youngmale",
+        "maxcalcium": 800,
+        "maxenergy": 3000,
+        "maxprotein": 60
+       },
+    "height": 71
+  },
+  {
+    "age": 20,
+    "email": "robert@gmail.com",
+    "gender": "Male",
+    "id": 2,
+    "name": "Robert",
+    "weight": 170,
+    "profile": 
+      {
+        "name": "youngmale",
+        "maxcalcium": 800,
+        "maxenergy": 3000,
+        "maxprotein": 60
+       },
+    "height": 76
+  }
+]

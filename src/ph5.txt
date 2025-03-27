@@ -1,0 +1,204 @@
+PH 5 Raw Vegetables and Herbs
+English cucumber,7.6
+cucumber,7.6
+Zucchini,6.8
+zucchini,6.8
+Cauliflower, 6.72
+cauliflower, 6.72
+Romaine lettuce, 6.6
+lettuce, 6.6
+Spinach,6.5
+spinach,6.5
+Broccoli,6.28
+broccoli,6.28
+Celery,6.24
+celery,6.24
+Iceberg lettuce ,6.23
+iceberg lettuce ,6.23
+Swiss chard (raw),6.22
+chard,6.22
+Asparagus (raw),6.21
+asparagus,6.21
+Cilantro (fresh),6.18
+cilantro,6.18
+Kale,6.01
+kale,6.01
+Cabbage,5.98
+cabbage,5.98
+Arugula,5.92
+arugula,5.92
+Basil,5.92
+basil,5.92
+Parsley (fresh),5.65
+parsley,5.65
+Garden cucumber,5.44
+garden cucumber,5.44
+Orange bell pepper,5.2
+orange bell pepper,5.2
+
+PH 5 Raw and Dried Fruits
+Avocado, 7.12
+avocado, 7.12
+Black olives (Cerignola, in water), 7.10
+black olives, 7.10
+Watermelon, 6.53 
+watermelon, 6.53 
+Cantaloupe, 6.42 
+cantaloupe, 6.42 
+Lychee, 5.91 
+lychee, 5.91 
+Butternut squash (raw), 5.81 
+butternut squash, 5.81 
+Banana, 5.11 
+banana, 5.11 
+Papaya, 5.66 
+papaya, 5.66 
+Dates (halawi, Delilah), 5.49
+dates, 5.49
+Turkish apricot, 5.1 
+apricot, 5.1 
+Dragon fruit, 5.45 
+dragon fruit, 5.45 
+Honeydew, 5.42 
+honeydew, 5.42 
+pumpkin, 5.40 
+pumpkin, 5.40 
+Bose pear, 5.15
+bose pear, 5.15
+
+PH 5 Root Vegetables 
+Cremini mushrooms, 6.79
+cremini mushrooms, 6.79
+Redskin potato (cooked), 6.4
+red potato, 6.4
+Ginger, 6.28 
+ginger, 6.28 
+Leeks, 6.21 
+leeks, 6.21 
+Beets (raw),6.19
+beets,6.19
+Carrots (raw), 6.14 
+carrots, 6.14 
+carrot, 6.14 
+Garlic, 6.17 
+garlic, 6.17 
+Onion (sweet), 6.15
+onion, 6.15
+Potato (Russet or Yukon Gold, cooked), 5.95
+potato, 5.95
+Sweet potato (cooked), 5.91 
+sweet potato, 5.91 
+Carrots (cooked), 5.83 
+Beets (cooked), 5.79
+
+PH 5 Dairy Products 
+Blue cheese,6.99
+blue cheese,6.99
+Butter (salted), 5.86 
+butter,5.86 
+Hard cheese (Dublin), 5.8 
+Dublin cheese, 5.8 
+dublin cheese, 5.8 
+Hard cheese (Parmesan), 5.84 
+Parmesan cheese, 5.84 
+parmesan cheese, 5.84 
+Hard cheese (Asiago),5.20
+Asiago cheese,5.20
+asiago cheese,5.20
+Soft cheese (mozzarella), 5.2 
+mozzarella cheese, 5.2 
+Mozzarella cheese, 5.2 
+Hard cheese (Cheddar), 5.16 
+Cheddar cheese, 5.16 
+cheddar cheese, 5.16 
+
+pH5 Eggs 
+Eggwhite, 8.84
+eggwhite, 8.84
+Egg (hard-boiled, organic) , 7.48
+egg, 7.48
+Egg yolk, 6.32
+egg yolk, 6.32
+
+pH 5 Dairy Alternatives
+Almond milk (vanilla, Silk), 8,40
+almond milk, 8,40
+Almond milk (original flavor, Silk), 8.36
+Soy milk (plain), 7.94
+soy milk, 7.94
+Tofu, 6.9
+tofu, 6.9
+Rice milk (plain, organic), 6.35
+rice milk (plain, organic), 6.35
+
+pH5 TreeNuts
+Almonds (raw), 6.08
+almonds, 6.08
+Walnuts (raw), 5.96
+walnuts, 5.96
+Cashews (salted), 5.41
+cashews, 5.41
+Pistachios (salted), 5.33
+pistachios, 5.33
+
+pH 5 Condiments and Spreads
+Almond butter (natural),6.32
+almond butter,6.32
+Peanut butter (fresh ground), 6.15 
+peanut butter, 6.15 
+Bragg Liquid Aminos (soy sauce alternative), 5.00
+
+pH5 Waters
+Evamor, 8.8 
+Aquadeco , 7.78 
+Jana, 7.78 
+Smarr Water , 7.7 
+Fuji, 7.55 
+Evian, 7.36 
+Arizona Vapor Water, 7.3
+NYC tap water (unfiltered), 7.23 
+voss flat water, 6.68
+NYC tap water (filtered-Multipure), 6.59
+perrier, 5.64
+Dasani, 5.46 
+coconut water (Zico), 5.2
+distilled water, 5.22
+
+pH5 Meats, Poultry, Fish, and Seafood
+Lobster (boiled), 7.30
+lobster (boiled), 7.30
+lobster, 7.30
+Shrimp (boiled), 6.92
+shrimp (boiled), 6.92
+shrimp, 6.92
+Crabmeat, 6.75 
+crabmeat, 6.75 
+Halibut (poached), 6.62 
+halibut, 6.62 
+Salmon (grilled), 6.32 
+salmon, 6.32 
+Octopus (grilled), 6.30
+octopus, 6.30
+Tuna (in water, canned), 6.18 
+tuna, 6.18 
+Turkey (fresh, roasted), 6.17 
+turkey, 6.17 
+Sardines (fresh), 6.15 
+sardines, 6.15 
+Cod (broiled), 6.05 
+cod, 6.05 
+Tuna (seared), 6.10
+Hamburger meat, 5.8 
+hamburger meat, 5.8 
+Chicken (grilled), 5.23 
+chicken, 5.23 
+Beef (sirloin), 5.1
+beef, 5.1
+
+pH5 Breads
+Multigrain bread (Bread Alone), 5.53 
+Ezekiel 4:9 Flax, 5.48 
+lOO% whole-grain bread , 5.35 
+Ezekiel 4:9 Sesame , 5.27
+Whole-wheat fiber bread 5.07
+bread, 5.27
