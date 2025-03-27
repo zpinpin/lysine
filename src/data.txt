@@ -1,0 +1,282 @@
+Bagels plain, 170,194, 297,0.6531
+English muffins, 122,288, 304,0.9474
+Cream cheese, 28, 192, 81, 2.370
+Provolone cheese, 28, 750, 290, 2.586
+Papaya, 454, 76, 30, 2.533
+Brie cheese, 28, 525, 208, 2.524
+Camembert cheese, 28, 501, 199, 2.518
+Parmesan cheese, 28, 937, 373, 2.512
+Parmesan cheese grated, 5, 192, 77, 2.494
+Gjetost cheese, 28, 231, 93, 2.484
+Goat milk, 244, 708, 291, 2.433
+Brick cheese, 28, 602, 248, 2.427
+Muenster cheese, 28, 606, 250, 2.424
+Beets, 136, 72, 30, 2.4
+Limburger cheese, 28, 475, 198, 2.399 read
+Tilsit cheese, 28, 578, 241, 2.398, 
+port du salut cheese, 28, 563, 235, 2.396
+Processed Swiss cheese, 28, 696, 293,2.375
+Cream cheese, 28, 192, 81, 2.370
+Mozzarella cheese part skim, 28, 699, 295, 2.369
+Processed American cheese, 28, 623, 263, 2.369
+Mozzarella cheese, 28, 559, 236, 2.369
+Neufchatel cheese, 28, 253, 107, 2.364
+Butter, 14.1, 9,4, 2.250
+Colby cheese, 28, 561, 254, 2.209
+Monterey jack cheese, 28, 578, 262, 2.206
+Cheshire cheese, 28, 578, 262, 2.206
+Cheddar cheese, 28, 588, 267, 2.202
+Buttermilk, 245, 679, 309, 2.197
+Skim milk, 245, 663, 302, 2.195
+Half and half cream, 242, 568, 259, 2.193
+Sherbet, 193, 171, 78, 2.192
+Condensed milk sweet, 306, 1920, 876, 2.192
+Chocolate milk, 250, 629, 287, 2.192
+Nonfat milk dry, 120, 3440, 1570, 2.191
+Low-fat milk 2percent, 244, 644, 294, 2.190
+Evaporated milk, 126, 681, 311, 2.190
+Ice cream, 133, 381, 174, 2.190
+Whole milk, 244, 637, 291, 2.189
+Whole milk dry, 128, 2670, 1220, 2.189
+Nonfat milk dry instant, 68, 1890, 864, 2.188
+Ice milk, 131, 409, 187, 2.187
+Whipping cream heavy, 238, 387, 177, 2.186
+Evaporated milk skim, 128, 763, 349, 2.186
+Whipping cream light, 239, 411, 188, 2.186,
+Ice cream Rich, 148, 327, 150, 2.180
+Mango, 300, 85, 39, 2.179
+Whipped cream pressurized, 60, 152, 70, 2.171
+Apricot, 114, 103, 48, 2.146
+Coffee cream, 15, 32, 15, 2.133
+Apple, 150, 17, 8, 2.125
+Ricotta cheese, 246, 3290, 1550, 2.123
+Ricotta cheese part skim, 246, 3320, 1570, 2.115
+Dried pear, 175, 116, 56, 2.071
+Eggnog, 254, 758, 378, 2.005
+Applesauce unsweetened, 244, 24, 12, 2.0
+Crab apple slices, 110, 28, 14, 2.0
+Loquat, 16, 2,1,2.0
+apple dried, 64, 37, 19, 1.947
+Pear, 180, 23, 12, 1.917
+Apricot dried, 35, 89, 49, 1.816
+Cottage cheese, 210, 2120, 1190, 1.782, cottage cheese 2%, 226, 2510, 1410, 1.78
+Cottage cheese dry, 145, 2020, 1140, 1.772
+Fig dried, 189, 228, 131, 1.74,
+Fig, 65, 19, 11, 1.727
+Human milk, 246, 168, 105, 1.6
+Avocado, 272, 189, 119, 1.588
+Salmon, 85, 1550, 1000, 1.550
+Swordfish, 85, 1550, 1000, 1.550
+Haddock, 85, 1480, 960, 1.54
+Smelt, 85, 1380, 897, 1.538
+Snapper, 85, 1600, 1040, 1.538
+Pollock, 85, 1520, 989, 1.537
+Eel, 85, 174, 938, 1.535
+Catfish, 85, 1420, 925, 1.535
+Anchovy in oil drained , 20, 531, 346, 1.535
+Whitefish, 85, 1490, 971, 1.535
+Tuna in water, 165, 4480, 2920, 1.534
+Cod, 85, 1390, 906, 1.534
+Flat fish flounder, 85, 1470, 959, 1.533
+Mackerel, 85, 1450, 946, 1.533
+Shark, 85, 1640, 1070, 1.533
+Carp, 85, 1390, 907, 1.533
+Pike, 85, 1500, 979, 1.532
+Hearing, 85, 1400, 914, 1.532
+Sardines in oil drained, 24, 542, 354, 1.531
+Bass, 85, 1380, 902, 1.530
+Perch, 85, 1450, 948, 1.53
+Bluefish, 85, 1560, 1020, 1.529
+Halibut, 85, 1620, 1060, 1.528
+Tomato, 123, 41, 27, 1.519
+Turnip, 130, 47, 31, 1.516
+Tomato juice, 243, 54, 36, 1.5
+Soy bean sprout, 70, 386, 266, 1.451,
+Canadian style bacon, 454, 7370, 5100, 1.445
+Wild pheasant, 371, 7470, 5240, 1.426
+Pork spare ribs, 454, 4730, 3340, 1.416
+Tomato paste, 262, 282, 200, 1.410
+Liver cheese, 28, 334, 237, 1.409
+Dark meat chicken, 109, 1860, 1320, 1.409
+Light meat chicken, 88, 1730, 1230, 1.407
+Chicken neck, 79, 298, 212, 1.406
+Summer sausage, 23, 318, 228, 1.395
+Pineapple, 155, 39, 28, 1.393
+Pork leg, 454, 7550, 5530, 1.365
+Pork loin chop, 151, 1950, 1430, 1.364,
+Pork shoulder, 454, 7140, 5240, 1.363
+Potato, 150, 190, 140, 1.357
+Chicken breast, 181, 2500, 1870, 1.337
+Cream of mushroom soup, 244, 127, 95, 1.337
+Turkey noodle soup, 244, 212, 159, 1.333
+Celery, 120, 32, 24, 1.333
+Chicken drumstick, 110, 1160, 870, 1.330
+Potato baking, 202, 283, 214, 1.322
+Beef flank steak, 454, 7270, 5500, 1.322
+Chicken gumbo, 244, 161, 122, 1.320
+Chicken noodle soup, 25241, 219, 166, 1.319
+Ground beef ramp steak, 454, 7320, 5550, 1.319
+Beef noodle soup, 244, 261, 198, 14318
+Vegetable with beef soup, 244, 344, 261, 1.318
+Cream of asparagus soup, 244, 112, 85, 1.318,
+Porterhouse steak, 454, 6560, 4980, 1.317
+Beef T-bone steak, 454, 6330, 4810, 1.316
+Beef sirloin steak, 454, 68880, 5230, 1.315
+Knockwurst, 68, 634, 482, 1.315
+Beef rib roast, 454, 6050, 4600, 1.315
+Beef short ribs, 454, 5430, 4130, 1.315
+Beef chuck roast, 454, 6900, 5250, 1.314
+Beef tenderloin, 454, 6990, 5320, 1.314
+Persimmon, 200, 55, 42, 1.310
+Squash summer, 30, 85, 65, 1.308
+Chicken leg, 231, 2470, 1890, 1.307
+Chicken white meat, 116, 1920, 1470, 1.306
+Ham boneless, 454, 6750, 5170, 1.306
+Chicken canned boned, 142, 2500, 1920, 1.302
+Turkey dark meat, 152, 2620, 2020, 1.297
+Cream of chicken soup, 244, 215, 166, 1.295
+Chicken heart, 6.1, 79, 61, 1.295,
+Turkey light meat, 180, 3540, 2740, 1.292
+Bratwurst CKD, 85, 910, 706, 1.289
+Turkey canned boned, 142, 3040, 2360, 1.288
+Italian sausage CKD, 67, 1020, 792, 1.288
+Prock sausage, 28, 252, 106, 1.286
+Wild quail, 405, 6660, 5180, 1.286
+Chicken thigh, 120, 1310, 1020, 1.284
+Chicken dark meat, 160, 2150, 1680, 1.280
+Goose domesticated, 320, 4010, 3150, 1.273
+Pork and beef sausage, 13, 141, 111, 1.270
+Bologna beef and pork, 28, 250, 108, 1.263
+Peach dried, 115, 151, 120, 1.258
+Black bean soup, 247, 415, 31, 1.254
+Beans with Frankfurst soup, 250, 415, 31, 1.254
+Peach, 115, 20, 16, 1.250,
+Corn beef brisket, 454, 5100, 4100, 1.244
+Pastrami, 28, 375, 302, 1.242
+Corned beef, 28, 254, 205, 1.239
+Frankford beef, 45, 389, 314, 1.239
+Ground beef regular, 113, 1560, 1260, 1.238
+Cream of celery soup, 244, 73, 59, 1.237
+Ground beef lean, 113, 1670, 1350, 1.237
+Chicken liver, 32, 35, 352, 1.236
+Duck liver, 44, 624, 505, 1.236
+Turkey liver, 102, 1540, 1250, 1.232
+Mortadella, 28, 358, 291, 1.230
+Goose liver, 940, 1160, 943, 1.230
+Plum, 5.5, 90, 74, 1.216
+Green beans, 110, 97, 80, 1.213
+Chicken back, 177, 1090, 900, 1.211
+Beef smoked chopped, 28, 467, 386, 1.210
+Pork bacon, 454, 2900, 2400, 1.208
+Beef dried, 28, 673, 557, 1.208
+Bratwurst, 28, 323, 268, 1.205
+Polish sausage, 28, 315, 28262, 1.202
+Salami hard, 10, 182, 152, 1.197
+Bologna pork, 28, 341, 25, 1.196
+Chicken wing, 90, 980, 585, 1.103
+Braunschweiger, 28, 258, 207, 1.189
+Duck domesticated, 287, 2610, 2210, 1.181
+Lentil Sprouts, 77, 548, 470, 1.166
+Lettuce Romain, 56, 58, 50, 1.160
+Lettuce iceberg , 75, 60, 52, 1.154
+Curvier black and red, 16, 293, 254, 1.154
+Cauliflower, 100, 108, 96, 1.125
+Viana sausage, 16, 127, 113, 1.124
+Liver, 113, 1570, 1420, 1.106
+Guava, 112, 21, 19, 1.105
+New England clam chowder, 244, 251, 229, 1.096
+Cream of potato soup, 244, 83, 76, 1.092
+Spinach, 55, 98, 90, 1.089
+Kayle, 67, 132, 123, 1.073
+Chicken rice soup, 241, 251, 234, 1.073
+Kabasa, 28, 286, 267, 1.071
+Frank for beef and pork, 45, 407, 32, 1.065
+Whole egg, 50, 410, 388, 1.057
+Required, 33, 206, 195, 1.056
+Whole egg dried, 5, 155, 147, 1.054
+Watermelon, 160, 99, 94, 1.053
+Cabbage Chinese, 70, 62, 59, 1.051
+Corn, 154, 210, 200, 1.050
+Sweet potato, 130, 105, 100, 1.050
+Turn up greens, 55, 54, 52, 1.0 78
+Avalon, 85, 1090, 1060,1.028
+Oysters, 84, 444, 433, 1.025, clamps, 180, 1720, 1680, 1.024
+Scallops, 85, 1060, 1040, 1.019
+Banana, 175, 55, 54, 1.019
+Asparagus, 14, 184, 192, 1.010
+Oat flakes, 48, 583, 579, 1.007,
+Mayonnaise, 185, 1400, 1400, one
+Vegetarian vegetable soup, 241, 99, 99, 1
+Beet greens, 38, 20, 20, 1
+Endive, 50, 32, 32, 1
+Leeks, 124, 97, 97,1 
+Pumpkin, 245, 96, 96, 1
+Shrimp, 85, 1500, 1510, 0.993
+Crab, 85, 1350, 1360, 0.993
+Pea soup with ham, 253, 696, 703, 0.990
+Lima beans cooked, 170, 765, 775, 0.987
+Egg Yolk, 17, 189, 103, 0.979,
+Okra, 100, 82, 84, 0.976
+Broccoli, 88, 124, 128, 0.969
+Chicken gizzard, 37, 465, 484, 0.961
+Strawberries, 149, 37, 39, 0.949
+Collards , 186, 140, 72, 0.931
+Minestrone soup, 241, 183, 198, 0.924
+Carrots, 110, 44, 48, 0.917
+Dates, 83, 50, 55, 0.909
+Peppers sweet, 100, 38, 42, 0.905
+Radish, 45, 16, 18, 0.89
+Watercress, 104, 172, 200, 0.860
+Swiss chard, 36, 36, 42, 0.857
+Eggplant, 82, 42, 50, 0.840
+Tomato soup, 244, 51, 61, 0.836
+Cabbage common, 70, 40, 48, 0.833
+Wheat germ , 180, 1330, 1790, 0.743
+Peas green, 146, 463, 625, 0.741
+Brussels sprouts, 88, 130, 178, 0.730
+Tangerine, 160, 27, 37, 0.730
+Orange, 180, 62, 85, 0.729
+Onions green, 100, 4, 6, 0.667
+Mushrooms, 70, 48, 72, 0.667
+Cucumber, 104, 22, 36, 0.611
+Wheat granules, 28.4, 101, 169, 0.598
+Congress, 242, 68, 114, 0.596
+Snooze, 85, 1250, 2100, 0.595
+Wheat shredded, 23.6, 79, 133, 0.594
+Reflex, 33, 101, 171, 0.591
+Cream of wheat, 251, 98, 166, 0.590
+pistachios showered, 128, 1640, 2790, 0.588, 
+corn puffed, 28.4, 65, 112, 0.580
+Wheat hurt, 12, 49, 85, 0.576, squash winter, 205, 902, 1590, 0.567
+Brand flakes, 47, 177, 314, 0.564
+Elderberries, 145, 638, 68, 0.559, 17, 148, 89, 160, 0.556
+Oats puffed, 28.4, 175, 320, 0.547
+Oatmeal, 243, 78, 147, 0.539
+cashews, 160, 246, 470, 0.523
+Chestnuts fresh, 160, 246, 470, 0.523
+Rice puffed, 14, 38, 73, 0.521
+Yes, 200, 89, 191, 0.46S
+Pumpkin season squash, 140, 2530, 5570, 0.454
+Garlic, 3, 8, 19, 0.421
+Macademia nuts, 134, 434, 1200, 0.362
+Blackberries, 145, 17, 49, 0.347
+Blueberries, 145, 17, 49, 0.347
+Onions mature, 160, 90, 262, 0.344
+Grapes slip skin, 153, 13, 42, 0.310
+Grapes inherent skin, 160, 24, 78, 0.308
+Peanuts, 144, 1450, 5050, 0.287
+Peanut butter, 15, 176, 613, 0.287
+Coconut shredded, 80, 118, 437, 0.237,
+Almonds, 142, 946, 3540, 0.267
+Rutabaga, 14055, 207, 0.266
+Pecans, 108, 315, 1190, 0.265
+Sesame seeds, 150, 1240, 4990, 0.248
+Hickory nuts, 15, 70, 298, 0.235
+Brazil Brazil nuts, 140, 757, 3350, 0.26
+Tahini, 15, 82, 378, 0.217
+Grape juice, 253, 25, 119, 0.210
+Tangerine juice, 247, 17, 84, 0.202
+Pinenuts, 28, 256, 1330, 0.192
+Orange juice, 248, 22, 117, 0.18
+Hazelnut, 135, 4959, 2480, 0.185
+Walnuts, 100, 468, 2520, 0.185
